@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="{% static 'myglobal.css' %}">
+</head>
+
+<body>
+
+<ul>
+  <h3>testtxt</h3>
+  {% for x in message%}
+  <li>{{ x }}</li>
+
+  {%endfor%}
+</ul>
+  
+</body>
+</html>
